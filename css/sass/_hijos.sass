@@ -1,0 +1,129 @@
+.header
+    background: url(../img/bgimage.png)
+    background-position: center
+    background-attachment: contain
+    background-size: cover
+    display: flex
+    flex-flow: column nowrap
+    .menu
+        background: rgba(0,0,0,.5)
+        display: flex
+        flex-flow: column nowrap
+        border-bottom: 1px solid rgba(255,255,255,.5)
+        .logo
+            //background: #7f0d1a
+            display: flex
+            flex: 1 1 auto
+            height: 200px
+            justify-content: center
+            align-items: center
+            a
+                color: #ffffff
+                font-size: 60px
+                &:hover
+                    color: #afafaf
+                    
+                &>span
+                    display: inline-block
+                    vertical-align: middle
+                    line-height: normal
+        .nav
+            display: flex
+            flex: 1 1 auto
+            //background: #7f0d1a
+            height: 50px
+            align-items: center
+            justify-content: center
+            a
+                color: #ffffff
+                letter-spacing: 3px
+                text-transform: uppercase
+                font-size: 18px
+                padding: 0 10px
+                transition: 0.3s
+                &:hover
+                    color: #afafaf
+                    transform: scale(1.2)
+        .social
+            display: flex
+            flex: 1 1 auto
+            //border-radius: 10px
+            //background: rgba(0,0,0,.6)
+            weight: 65px
+            height: 30px
+            align-items: center
+            justify-content: center
+            a
+                color: #ffffff
+                font-size: 12px
+                padding: 0 4px
+                transition: 0.3s
+                &:hover
+                    color: #afafaf
+.section
+    background: #f7f7f7
+    display: flex
+    //flex-flow: column nowrap
+    .articulos
+        background: #f7f7f7
+        display: flex
+        flex-flow: row wrap
+        .article
+            //background: #60517f
+            flex: 1 1 30%
+            color: #444
+            font-size: 13px
+            letter-spacing: 1px
+            margin: 10px 10px 0 0px
+            background: #ececec
+            h3
+                color: #fff
+                font-size: 13px
+                padding: 0px 0 20px 0
+                margin-top: -80px
+            h2
+                font: size 20px
+                text-transform: uppercase
+                padding: 0px 0 20px 0
+                color: #fff
+            img
+                width: 100%
+                border-bottom: 2px solid rgba(0,0,0,0.5)
+            a
+                //border-radius: 3px
+                color: #ffffff
+                font-size: 13px
+                padding: 10px
+                background: #000000
+                margin: 10px 0
+                display: inline-block
+                &:hover
+                    background: #afafaf
+        .nav2
+            //background: #ac91e5
+            background: #000000
+            flex: 1 1 100%
+            margin: 10px 10px 0 0px
+            a
+                color: #ffffff
+                font-size: 11px
+                text-transform: uppercase
+                padding: 0 10px
+                letter-spacing: 3px
+                &:hover
+                    color: #afafaf
+.footer
+    background: #000000
+    display: flex
+    justify-content: center
+    margin-top: 10px
+    .nav3
+        text-align: center
+        //background: #bfb214
+        //width: 300px
+        a
+            color: #ffffff
+            font-size: 12px
+            text-transform: uppercase
+            padding: 0 10px
+            letter-spacing: 2px
